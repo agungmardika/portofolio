@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900">
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="fixed inset-0 flex items-center justify-center">
+        <div class="splash-content">
+            <h1 class="text-4xl text-white">Welcome to Your Website</h1>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <div class="container mx-auto mt-20 px-4">
+            <!-- Your Website Content -->
+            <p class="text-2xl font-semibold text-white">This is the main content of your website.</p>
+        </div>
+    </div>
+
+    <script>
+        // Wait for the window to load
+        window.onload = function () {
+            // Hide splash screen after 3 seconds (adjust as needed)
+            setTimeout(function () {
+                document.getElementById('splash-screen').classList.add('hidden');
+                document.getElementById('main-content').classList.remove('hidden');
+            }, 3000);
+        };
+    </script>
+</body>
+
+</html>
