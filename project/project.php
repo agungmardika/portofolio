@@ -54,7 +54,7 @@
                 <div class="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 rounded-md bg-gray-50">
                     <div class="space-y-2">
                         <a rel="noopener noreferrer" href="#" class="inline-block text-2xl font-semibold sm:text-3xl text-center">Aestria Clothing</a>
-                        <p class="font-semibold hover:underline">HTML, Tailwindcss, PHP. ~as Team Leader, Front End</p>
+                        <p class="font-semibold ">HTML, Tailwindcss, PHP. ~as Team Leader, Front End</p>
                     </div>
                     <div class="text-gray-800 flex justify-center space-x-5">
                         <a href="https://wa.me/6282352278811?text=Halo%20Saya%20Ingin%20Melihat%20Preview%20Website%20Aestria%20Clothing!">Preview</a>
@@ -66,7 +66,7 @@
                 <div class="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 rounded-md bg-gray-50">
                     <div class="space-y-2">
                         <a rel="noopener noreferrer" href="#" class="inline-block text-2xl font-semibold sm:text-3xl text-center">PPDB SMK Telkom Banjarbaru</a>
-                        <p class="font-semibold hover:underline">HTML, Tailwindcss, Larvel 10. ~ as Team Leader, Front End</p>
+                        <p class="font-semibold ">HTML, Tailwindcss, Larvel 10, Lapentor. ~ as Team Leader, Front End</p>
                     </div>
                     <div class="text-gray-800 flex justify-center space-x-5">
                         <a href="https://www.figma.com/design/Kk3viv2pp73fKJXWVWc38r/PPDB?node-id=0%3A1&t=BZ7NgAoufoyIPt2q-1">Figma</a>
@@ -75,14 +75,25 @@
                 </div>
             </div>
             <div class="flex flex-col max-w-3xl mx-auto overflow-hidden rounded mt-16">
-                <img src="../images/project/forge/forge-1.png" alt="forge" class="w-full h-60 sm:h-96 bg-gray-300 object-contain">
+                <img src="../images/project/forge/forge-banner.png" alt="forge" class="w-full h-60 sm:h-96 bg-[#1D3557] object-contain">
                 <div class="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 rounded-md bg-gray-50">
                     <div class="space-y-2">
                         <a rel="noopener noreferrer" href="#" class="inline-block text-2xl font-semibold sm:text-3xl text-center">Forge Garage </a>
-                        <p class="font-semibold hover:underline">Design UI UX</p>
+                        <p class="font-semibold">Design UI UX</p>
                     </div>
                     <div class="text-gray-800 flex justify-center space-x-5 font-semibold">
                         <a href="https://www.figma.com/proto/Ivwyp3U5CzeL4T41fqwvyN/Project-Android?page-id=0%3A1&type=design&node-id=488-239&viewport=1500%2C383%2C0.47&t=DVxudBvhg6qtCayg-1&scaling=scale-down&starting-point-node-id=109%3A12&show-proto-sidebar=1">Figma</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-3xl mx-auto overflow-hidden rounded mt-16">
+                <img src="../images/project/weather-check/weather-check.png" alt="weather-check" class="w-full h-60 sm:h-96 bg-[#19193B] object-contain">
+                <div class="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 rounded-md bg-gray-50">
+                    <div class="space-y-2">
+                        <a rel="noopener noreferrer" href="#" class="inline-block text-2xl font-semibold sm:text-3xl text-center">Weather Check Website </a>
+                        <p class="font-semibold">Weather open API</p>
+                    </div>
+                    <div class="text-gray-800 flex justify-center space-x-5 font-semibold">
                     </div>
                 </div>
             </div>
