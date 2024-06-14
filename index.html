@@ -261,7 +261,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="mt-10 text-2xl">
+                    <div class="mt-10 text-2xl" id="about">
                         <div class="flex justify-start">
                             <div class="flex justify-center">
                                 <p class="pr-10">01</p>
@@ -431,13 +431,28 @@
                     </div>
                 </div>
             </div>
-            <div class="">
-                <button><a href="index-id.html">
-                        ID
-                    </a></button><button><a href="index.html">
-                        EN
-                    </a></button>
+            <div class="my-auto block">
+                <!-- Home button group -->
+                <div class="group inline-block">
+                    <button class="group-hover:bg-[#202020]">
+                        <i class="fa-solid fa-house text-2xl group-hover:text-[#518A51]"></i>
+                        <a href="" class="">
+                            <p class="rotate-90 mt-5 text-lg group-hover:text-[#518A51] font-semibold">Home</p>
+                        </a>
+                    </button>
+                </div>
+                <!-- Info button group -->
+                <div class="group inline-block mt-10">
+                    <button class="group-hover:bg-[#202020]">
+                        <i class="fa-solid fa-circle-info text-2xl group-hover:text-[#518A51]"></i>
+                        <a href="#about" class="">
+                            <p class="rotate-90 mt-5 text-lg group-hover:text-[#518A51] font-semibold">About</p>
+                        </a>
+                    </button>
+                </div>
+
             </div>
+
         </div>
     </div>
     <script>
@@ -497,7 +512,6 @@
 
         // Memperbarui waktu setiap detik
         setInterval(updateClock, 1000);
-
     </script>
 </body>
 
